@@ -140,9 +140,7 @@ Update this section as the project progresses.
 
 ## 11. How to run it
 
-Repository:
-
-https://github.com/Peeyush1-lab/DevNest
+Repository: https://github.com/Peeyush1-lab/DevNest
 
 The application is not runnable yet.
 
