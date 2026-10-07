@@ -23,17 +23,17 @@ can showcase their work, share technical posts, and connect with others.
 
 ## Planned Technology Stack
 
-| Layer | Technology |
-|---|---|
-| Frontend | React, Tailwind CSS |
-| Backend | Node.js, Express |
-| Database | PostgreSQL |
-| Authentication | JWT, bcrypt, Google OAuth |
-| Image storage | Cloudinary |
-| Validation | Zod |
-| Code quality | ESLint, Prettier |
-| Frontend deployment | Vercel |
-| Backend deployment | Render or Railway; final choice pending |
+| Layer               | Technology                              |
+| ------------------- | --------------------------------------- |
+| Frontend            | React, Tailwind CSS                     |
+| Backend             | Node.js, Express                        |
+| Database            | PostgreSQL                              |
+| Authentication      | JWT, bcrypt, Google OAuth               |
+| Image storage       | Cloudinary                              |
+| Validation          | Zod                                     |
+| Code quality        | ESLint, Prettier                        |
+| Frontend deployment | Vercel                                  |
+| Backend deployment  | Render or Railway; final choice pending |
 
 ## Planned Repository Structure
 

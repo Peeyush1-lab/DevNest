@@ -2,15 +2,15 @@
 
 ## Project Details
 
-| Field | Value |
-|---|---|
-| Project | DevNest |
-| Track | Full Stack |
-| Level | Beginner–Intermediate |
-| Started | 2026-10-07 |
-| Shipped | Not yet |
+| Field      | Value                                              |
+| ---------- | -------------------------------------------------- |
+| Project    | DevNest                                            |
+| Track      | Full Stack                                         |
+| Level      | Beginner–Intermediate                              |
+| Started    | 2026-10-07                                         |
+| Shipped    | Not yet                                            |
 | Repository | [DevNest](https://github.com/Peeyush1-lab/DevNest) |
-| Live URL | Not deployed yet |
+| Live URL   | Not deployed yet                                   |
 
 ## 1. What this project is
 
@@ -31,14 +31,14 @@ and follow people whose work interests them.
 
 ### Planned components
 
-| Component | Responsibility |
-|---|---|
-| React and Tailwind CSS | User interface |
-| Node.js and Express | REST APIs and application logic |
-| PostgreSQL | Persistent data and relationship constraints |
-| Google OAuth | Google sign-in |
-| GitHub REST API | Public repository integration |
-| Cloudinary | Image storage and delivery |
+| Component              | Responsibility                               |
+| ---------------------- | -------------------------------------------- |
+| React and Tailwind CSS | User interface                               |
+| Node.js and Express    | REST APIs and application logic              |
+| PostgreSQL             | Persistent data and relationship constraints |
+| Google OAuth           | Google sign-in                               |
+| GitHub REST API        | Public repository integration                |
+| Cloudinary             | Image storage and delivery                   |
 
 ### Planned data relationships
 
@@ -55,10 +55,10 @@ after the data model is finalised.
 
 ## 4. Key decisions and trade-offs
 
-| Decision | Options considered | Choice | Reason | Trade-off |
-|---|---|---|---|---|
-| Database | PostgreSQL, MongoDB | PostgreSQL | The platform has structured relationships; foreign keys and unique constraints support data integrity | Schema changes require migrations, and related data may require joins |
-| Application structure | Integrated framework, separate client and server | React client and Express server | Learn explicit REST API design and separate responsibilities | Two applications to configure and deploy |
+| Decision              | Options considered                               | Choice                          | Reason                                                                                                | Trade-off                                                             |
+| --------------------- | ------------------------------------------------ | ------------------------------- | ----------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Database              | PostgreSQL, MongoDB                              | PostgreSQL                      | The platform has structured relationships; foreign keys and unique constraints support data integrity | Schema changes require migrations, and related data may require joins |
+| Application structure | Integrated framework, separate client and server | React client and Express server | Learn explicit REST API design and separate responsibilities                                          | Two applications to configure and deploy                              |
 
 These are planned choices, not completed implementations.
 
@@ -89,8 +89,8 @@ Check each item after implementing it and adding supporting evidence.
 Not recorded yet.
 
 | Metric | Before | After | How I measured it |
-|---|---|---|---|
-| — | — | — | — |
+| ------ | ------ | ----- | ----------------- |
+| —      | —      | —     | —                 |
 
 Record actual results, test conditions, and measurement tools.
 
@@ -115,16 +115,19 @@ measuring its bottlenecks.
 ## 9. Interview answers I have rehearsed
 
 ### Why use refresh tokens instead of one long-lived JWT?
+
 Where would I store each token, and why?
 
 Answer: Not recorded yet.
 
 ### How would I investigate a slow feed query?
+
 What index would I add, and how would I verify the improvement?
 
 Answer: Not recorded yet.
 
 ### How would I change the data model if a user could follow
+
 10 million people?
 
 Answer: Not recorded yet.
